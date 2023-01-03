@@ -1,0 +1,113 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+      <link href="./style.css" rel="stylesheet" type="text/css"/>
+      <title> Will Dudley's Portfolio </title>
+      <meta name="description" content="Portfolio of 3d Environment art for Console and Mobile Games. Including RIZE, Transformers, Hasbro Arcade, Kinect Sports II and Fable: The Journey">
+      <!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+      <meta content="text/html; charset=us-ascii"
+         http-equiv="Content-Type" />
+      <meta content="0" http-equiv="Expires"
+         />
+    <link href="./style.css" rel="stylesheet" type="text/css"/>
+      <!--#include  file="menu.html" -->
+   </head>
+   <body>
+      <center>
+          <div id="intro">
+             <font color="#FFFFFF" style="font-size:30px">Will Dudley</font> <br>
+             <font color="#FFFFFF" style="font-size:40px">ENVIRONMENT & TECH ARTIST</font>
+          </div>
+         <div id="page" style="background-color:#222222">
+            <div id="subheader">
+               PORTFOLIO
+            </div>
+            <div id="note">
+               My work. Click to jump to each section. 
+            </div>
+            <div id="feature">
+               <a href="#art">
+                  <div id="thumbnail">
+                     <img src="images/thumbArt.png" width="100%"> 
+                     <div id="thumbTitle">Environment Art</div>
+                  </div>
+               </a>
+               <a href="#shaders">
+                  <div id="thumbnail">
+                     <img src="images/thumbShaders.png" width="100%"> 
+                     <div id="thumbTitle">Shaders</div>
+                  </div>
+               </a>
+               <a href="#tools">
+                  <div id="thumbnail">
+                     <img src="images/thumbTools.png" width="100%"> 
+                     <div id="thumbTitle">Unity Tools</div>
+                  </div>
+               </a>
+               <a href="games.shtml#games">
+                  <div id="thumbnail">
+                     <img src="images/thumbGames.png" width="100%"> 
+                     <div id="thumbTitle">Personal Games</div>
+                  </div>
+               </a>
+               <a href="#cv">
+               <div id="thumbnail">
+                  <img src="images/thumbCV.png" width="100%"> 
+                  <div id="thumbTitle">CV</div>
+               </div>
+             </a>
+             <a href="https://twitter.com/willjdudley">
+               <div id="thumbnail">
+                  <img src="images/thumbTwitter.png" width="100%"> 
+                  <div id="thumbTitle">Twitter</div>
+               </div>
+             </a>
+            </div>
+         </div>
+         <div id="page"   style="background-color:#111111">
+            <h2 id="art">
+               <div id="subheader">
+                  ART
+               </div>
+               <div id="note">
+                  A few pieces I have created.
+               </div>
+               <!--#include  file="model.html" -->
+            </h2>
+         </div>
+         <div id="page"    style="background-color:#222222">
+            <h2 id="shaders">
+               <div id="subheader">
+                  SHADERS
+               </div>
+               <div id="note">
+                  HLSL Shders built for Unity
+               </div>
+               <!--#include  file="shaders.html" -->
+            </h2>
+         </div>
+         <div id="page"    style="background-color:#111111">
+            <h2 id="tools">
+               <div id="subheader">
+                  TOOLS
+               </div>
+               <div id="note">
+                  Examples of tools I have developed for Unity.
+               </div>
+               <!--#include  file="tools.html" -->
+            </h2>
+         </div>
+         <div id="page"    style="background-color:#222222">
+            <h2 id="cv">
+               <div id="subheader">
+                  CV
+               </div>
+               <div id="note">
+                  <a href="WillDudley-EnvironmentArtist.pdf"><font color="#a8a8a8">Download my cv </font><font color="#13aff0"> here.</font></a>
+               </div>
+               <!--#include  file="cv.html" -->
+            </h2>
+         </div>
+      </center>
+   </body>
+</html>
