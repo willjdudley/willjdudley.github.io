@@ -11,7 +11,7 @@
       <meta content="0" http-equiv="Expires"
          />
     <link href="./style.css" rel="stylesheet" type="text/css"/>
-      <!--#include  file="menu.html" -->
+    <html-include src="./menu.html"></html-include>
    </head>
    <body>
       <center>
@@ -84,7 +84,7 @@
                <div id="note">
                   HLSL Shders built for Unity
                </div>
-               <!--#include  file="shaders.html" -->
+               <html-include src="./shaders.html"></html-include>
             </h2>
          </div>
          <div id="page"    style="background-color:#111111">
@@ -95,7 +95,7 @@
                <div id="note">
                   Examples of tools I have developed for Unity.
                </div>
-               <!--#include  file="tools.html" -->
+               <html-include src="./tools.html"></html-include>
             </h2>
          </div>
          <div id="page"    style="background-color:#222222">
@@ -106,7 +106,7 @@
                <div id="note">
                   <a href="WillDudley-EnvironmentArtist.pdf"><font color="#a8a8a8">Download my cv </font><font color="#13aff0"> here.</font></a>
                </div>
-               <!--#include  file="cv.html" -->
+               <html-include src="./cv.html"></html-include>
             </h2>
          </div>
       </center>
