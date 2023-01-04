@@ -1,0 +1,336 @@
+body{
+background-color:#111111;
+margin: 0px;
+padding: 0px;
+color : white;
+font-family: sans-serif !important;
+}
+head {
+margin: 0px;
+padding: 0px;
+}
+a{
+text-decoration: none;
+color : white;
+}
+h2 {
+  max-width : 1080px;
+  width : 100%;
+  display: inline-block;
+float: center;
+}
+#page{  
+width : 100%;
+text-align:center;
+display: inline-block;
+float: center;
+font-size: 22px;
+border-width : 2px 0px 0px 0px;
+border-style: solid none none none;
+border-color: #31798e;
+padding-bottom: 40px;
+}
+
+
+#header {
+float: center;
+width :100%;
+height : 50px;
+line-height: 50px;
+z-index:9999;
+font-size: 22px;
+background-color:#222222;
+border-width: 2px;
+border-style: none none solid none;
+border-color: #31798e;
+padding-left: 40px;
+padding-right: 20px;
+position: fixed;
+}
+
+#intro{
+width: 100%;
+background-image: url("model/spaceship_01.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center bottom;
+height: 160px;
+line-height: 60px;
+font-size: 22px;
+padding: 220px 0px 60px 0px;
+
+width: 100%;
+font-weight: bold;
+}
+#subheader{
+height: 60px;
+line-height: 80px;
+font-size: 40px;
+color: #31798e;
+font-weight: bold;
+margin-bottom: 0px;
+
+padding-top: 40px;
+
+}
+#note{
+  height : 30px;
+  line-height: 30px;
+  color: #a8a8a8;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+#title {
+width:20%;
+display: inline-block;
+}
+#menu {
+display: inline-block;
+float: right;
+width: 75%;
+text-align: center;
+
+padding-right: 30px;
+}
+
+#button {
+width : 12%;
+max-width : 120px;
+height: 100%;
+vertical-align: center;
+display: inline-block;
+background-color:#222222;
+border-width: 0px;
+text-align:center;
+padding : 0px;
+margin : 0px;
+}
+#button:hover{
+background-color:#333333;
+color: #31798e;
+}
+#button:active{
+background-color:#111111;
+
+}
+#buffer {
+height : 42px;
+}
+#thumbSmall { 
+width : 260px;
+float: right; 
+padding : 2px 8px 2px 0px;
+}
+#thumbLarge { 
+float: left; 
+padding : 2px 0px 2px 0px;
+}
+#feature { 
+  display: inline-block;
+width:800px;
+float:center;
+text-align: left;
+}
+#cv { 
+  display: inline-block;
+width:800px;
+float:center;
+text-align: left;
+ margin  : 0px 0px 12px 0px;
+}
+#info{
+  background-color:#333333;
+  font-weight: normal;
+  width : 772px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  margin  : 0px 0px 12px 0px;
+  padding: 0px 16px 0px 4px;
+  border-width : 0px 0px 2px 0px;
+border-style: none none solid none;
+border-color: #31798e;
+}
+#infotool{
+  float:right;
+  font-weight: normal;
+  width : 372px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: left;
+  height: : 100%;
+  margin  : 10px 0px 12px 0px;
+  padding: 0px 16px 10px 10px;
+  
+}
+#menutool{
+  position: absolute;
+  bottom: 0;
+  height: : 100%;
+  margin  : 10px 0px 12px 0px;
+  padding: 0px 16px 10px 10px;
+
+}
+#featuretool { 
+  display: inline-block;
+  background-color:#333333;
+  width:800px;
+  float:center;
+  text-align: left;
+  border-width : 0px 0px 2px 0px;
+  border-style: none none solid none;
+  border-color: #31798e;
+  padding: 0px 16px 0px 4px;
+  position:relative
+}
+#titletool{
+  height: 45px;
+  line-height: 45px;
+  font-size: 30px;
+  color: #31798e;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  background-color:#333333;
+  font-weight: normal;
+  width : 800px;
+  display: inline-block;
+  text-align: left;
+  margin  : 0px 0px 0px 0px;
+  padding: 0px 16px 0px 0px;
+}
+#buttontool {
+width : 170px;
+height: 30px;
+  font-size: 14px;
+line-height: 30px;
+display: inline-block;
+background-color:#31798e;
+border-width: 0px;
+text-align:center;
+vertical-align: text-bottom;
+padding : 0px;
+margin  : 10px 0px 0px 10px;
+}
+#thumbnail {
+width: 260px;
+height: 260px;
+vertical-align: text-top;
+font-size: 22px;
+display: inline-block;
+background-color:#111111;
+text-align:center;
+border-width : 0px 0px 2px 0px;
+border-style: none none solid none;
+border-color: #31798e;
+margin : 4px 1px 4px 1px;
+}
+#thumbnail:hover{
+background-color:#222222;
+color: #31798e;
+}
+#thumbnail:active{
+background-color:#333333;
+filter: grayscale(100%);
+}
+#thumbTitle { 
+position: relative; 
+top: -40px; 
+left: 0; 
+width: 100%;
+background-color: inherit; 
+height : 40px;
+line-height: 40px;
+display: inline-block;
+}
+#cvhead{
+line-height: 60px;
+font-size: 20px;
+width: 100%;
+font-weight: bold;
+color: #31798e;
+}
+
+#cvlogo{
+float:left;
+width:200px;
+}
+#cvtext{
+text-align: left;
+font-size: 16px;
+font-weight: normal;
+float:right;
+margin-left: 20px;
+width:580px;
+}
+
+@media only screen and (max-width: 800px){
+
+#title {
+  display: none;
+}
+  #menu {
+  width:100%;
+
+  float:center;
+  text-align: center;
+}
+
+#feature {
+width: 100%;
+}
+#page{  
+width : 576;
+text-align:center;
+}
+
+#thumbSmall {
+width : 260px;
+padding : 2px 3px;
+}
+
+
+@media only screen and (max-device-width: 1024px){
+  body{
+    width: 528px;
+  }
+#header{
+ display: none;
+}
+#info {
+  width:100%;
+  padding: 0px;
+}
+#subheader{
+  float: center;
+}
+#page{ 
+  float : center;
+width: 100%;
+text-align:center;
+}
+#thumbLarge { 
+  width: 100%;
+padding : 0px;
+}
+#cvtext { 
+ width: 58%;
+ float: right;
+}
+#cvlogo{
+  width:38%;
+   float: left;
+}
+
+#thumbSmall { 
+display: none;
+}
+#thumbnail {
+width: vw;
+height: vw;
+padding : 0px;
+margin :0px;
+margin-bottom : 4px;
+}
+}

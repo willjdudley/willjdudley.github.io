@@ -1,0 +1,111 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+      <link href="./style.css" rel="stylesheet" type="text/css"/>
+      <title> Will Dudley's Portfolio </title>
+      <meta name="description" content="Portfolio of 3d Environment art for Console and Mobile Games. Including RIZE, Transformers, Hasbro Arcade, Kinect Sports II and Fable: The Journey">
+      <!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+      <meta content="text/html; charset=us-ascii"
+         http-equiv="Content-Type" />
+      <meta content="0" http-equiv="Expires"
+         />
+    <link href="./style.css" rel="stylesheet" type="text/css"/>
+      <!--#include  file="menu.html" -->
+   </head>
+   <body>
+      <center>
+          <div id="intro">
+             <font color="#FFFFFF" style="font-size:30px">Will Dudley</font> <br>
+             <font color="#FFFFFF" style="font-size:40px">ENVIRONMENT & TECH ARTIST</font>
+          </div>
+         <div id="page" style="background-color:#222222">
+            <div id="subheader">
+               PORTFOLIO
+            </div>
+            <div id="note">
+               My work. Click to jump to each section. 
+            </div>
+            <div id="feature">
+               <a href="index.shtml#art">
+                  <div id="thumbnail">
+                     <img src="images/thumbArt.png" width="100%"> 
+                     <div id="thumbTitle">Environment Art</div>
+                  </div>
+               </a>
+               <a href="index.shtml#shaders">
+                  <div id="thumbnail">
+                     <img src="images/thumbShaders.png" width="100%"> 
+                     <div id="thumbTitle">Shaders</div>
+                  </div>
+               </a>
+               <a href="index.shtml#tools">
+                  <div id="thumbnail">
+                     <img src="images/thumbTools.png" width="100%"> 
+                     <div id="thumbTitle">Unity Tools</div>
+                  </div>
+               </a>
+               <a href="#games">
+                  <div id="thumbnail">
+                     <img src="images/thumbGames.png" width="100%"> 
+                     <div id="thumbTitle">Personal Games</div>
+                  </div>
+               </a>
+               <a href="index.shtml#cv">
+               <div id="thumbnail">
+                  <img src="images/thumbCV.png" width="100%"> 
+                  <div id="thumbTitle">CV</div>
+               </div>
+             </a>
+             <a href="https://twitter.com/willjdudley">
+               <div id="thumbnail">
+                  <img src="images/thumbTwitter.png" width="100%"> 
+                  <div id="thumbTitle">Twitter</div>
+               </div>
+             </a>
+            </div>
+         </div>
+         <div id="page"   style="background-color:#111111">
+               <h2 id="games">
+               <div id="subheader">
+                  Personal Games
+               </div>
+               <div id="note">
+                  Here are a few games I have worked on in my free time.
+               </div>
+            </h2>
+           <div> </div>
+                <div id="feature" style="width:528px">
+               
+
+                        <img src= "games/speedPunk.png">
+
+                    <div id="info" style="width:508px">
+                        Speed Punk - Initially started as an Overwatch fan game, this is a simple endless runner that I developed in my free time. It can be found on the Google Play Store.
+                    </div>
+                </div>
+                <div id="feature" style="width:528px">
+      
+                        <img src= "games/romanticGetaway.png">
+                    <div id="info" style="width:508px">
+                        Romantic Getaway - Winner of the King Game Jam, in Romantic Getaway you must escape from the police while having a heated discussion with your partner.
+                    </div>
+                </div>
+                <div id="feature" style="width:528px">
+
+                        <img src= "games/six.png">
+                    <div id="info" style="width:508px">
+                        SIX! The Cricket Game is an alarmingly simple cricket simulator. The intent of this project was to build a shell and structure for a game which could be reused for other projects. It was developed without knowing anything about cricket.
+                    </div>
+                </div>
+                <div id="feature" style="width:528px">
+
+                        <img src= "games/theRedMachine.png">
+                    <div id="info" style="width:508px">
+                        The Red Machine. This was my first solo Unity project. I created a simple arcade shooter while learning the basics of Javascript.
+                    </div>
+                </div>
+            </div>
+         </div>
+      </center>
+   </body>
+</html>
