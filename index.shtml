@@ -1,6 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
    <head>
+   <script type="module" src='https://unpkg.com/html-include-element'></script>
       <link href="./style.css" rel="stylesheet" type="text/css"/>
       <title> Will Dudley's Portfolio </title>
       <meta name="description" content="Portfolio of 3d Environment art for Console and Mobile Games. Including RIZE, Transformers, Hasbro Arcade, Kinect Sports II and Fable: The Journey">
