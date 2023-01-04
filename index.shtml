@@ -72,7 +72,7 @@
                <div id="note">
                   A few pieces I have created.
                </div>
-               <html-include src="model.html"></html-include>
+               <html-include src="./model.html"></html-include>
             </h2>
          </div>
          <div id="page"    style="background-color:#222222">
