@@ -1,0 +1,116 @@
+main, nav {
+  margin-left: 15%;
+  width: 70%; }
+
+@media (max-width: 50em) {
+  main, nav {
+    margin-left: 10%;
+    width: 80%; } }
+@media (max-width: 40em) {
+  nav {
+    display: none; }
+
+  main {
+    margin-left: 5%;
+    width: 90%; } }
+body {
+  background-color: #aaa; }
+
+header, footer {
+  background-color: #888;
+  border-color: #e62; }
+
+header {
+  border-width: 0 0 1px;
+  border-style: solid; }
+
+footer {
+  border-width: 1px 0 0;
+  border-style: solid; }
+
+#nav-links {
+  height: 2em;
+  max-width: 60%; }
+  #nav-links li {
+    display: inline-block;
+    width: 6em;
+    height: 2em;
+    vertical-align: middle;
+    border: solid 1px transparent;
+    color: #000; }
+    #nav-links li a {
+      color: #000; }
+    #nav-links li :hover {
+      color: #666; }
+
+button {
+  padding: 0.2em;
+  background-color: transparent;
+  border: solid 1px #888;
+  border-radius: 0.2em; }
+
+button:hover {
+  border-color: #77c; }
+
+.loc-input {
+  border: solid 1px #888; }
+
+.loc-input:focus {
+  border-color: #77c; }
+
+#type-selector {
+  display: inline-block;
+  padding-bottom: 1em; }
+  #type-selector li {
+    height: 2em;
+    cursor: pointer;
+    border: solid 1px transparent;
+    border-radius: 0.5em; }
+    #type-selector li img {
+      height: 1.5em;
+      width: 1.5em;
+      margin: 0.25em;
+      vertical-align: middle; }
+    #type-selector li label {
+      height: 100%;
+      vertical-align: middle;
+      cursor: inherit;
+      padding: 0.5em; }
+  #type-selector li.selected-type {
+    background-color: #cc9;
+    border-color: #888; }
+  #type-selector li:hover {
+    border-color: #77c; }
+
+#map-inner-container, #map-inner-container.map-normal {
+  width: 18em;
+  height: 18em; }
+
+#map-inner-container.map-large {
+  width: 28em;
+  height: 28em; }
+
+#map-inner-container.map-full-screen {
+  width: 98vh;
+  height: 98vh; }
+
+#map-size li {
+  border: solid 1px transparent; }
+
+#map-size li:hover {
+  border-color: #888; }
+
+#place-list {
+  background-color: #eed; }
+  #place-list li {
+    border: solid 1px #e0e0e0;
+    padding: 0.2em;
+    cursor: pointer; }
+  #place-list li:hover, #place-list li.place-emphasise {
+    border-color: #cbb;
+    background-color: #cee; }
+  #place-list li.place-selected {
+    border-color: #e62;
+    background-color: #cdd; }
+
+/*# sourceMappingURL=styles-2.css.map */

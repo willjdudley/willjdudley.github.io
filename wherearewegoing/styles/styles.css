@@ -1,0 +1,310 @@
+
+
+/* General page style sheet */
+
+body {
+	font-family: helvetica, verdana, arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #111;
+	margin: 0.8em 0;
+}
+
+h2 {
+	font-size: 1em;
+	color: #444;
+	margin: 0.8em 0;
+}
+
+h5 {
+	font-size: 0.8em;
+	padding: 0.5em 0;
+}
+
+a  {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+header {
+	padding: 3em 0 0;
+}
+
+span.site-name {
+	color: #833;
+	font-style: italic;
+}
+
+main {
+	height: 100%;
+}
+
+footer {
+	margin-top: 5em;
+	padding: 2em 15%;
+}
+
+input[type=text] {
+	padding: 0.3em;
+}
+
+label {
+	cursor: inherit;	/* Firefox fix */
+}
+
+/* Navigation */
+
+a.bannerLink {
+	display: inline-block;
+	padding: 0.5em 1em;
+	white-space: nowrap;
+}
+
+/* Buttons */
+
+.small-button {
+	border: none;
+	font-size: 8pt;
+}
+
+.btn-remove {
+	background-image: url('../icons/32/minus.png');
+	background-size: 95%;
+	background-repeat: no-repeat;
+	border: 0;
+	padding: 0;
+	height: 1.8em;
+	width: 1.8em;
+	vertical-align: middle;
+	margin: 0 0.6em;
+}
+
+
+/* More Info */
+.more-info {
+	display: none;
+}
+
+.more-info-img {
+	cursor: pointer;
+	margin-left: 1em;
+	vertical-align: middle;
+}
+
+.info-message {
+	font-size: 9pt;
+	font-style: italic;
+	padding: 0.8em 0;
+	color: #47c;
+}
+
+@media only (max-width: 40em) {
+	nav {
+		display: none;
+	}
+	#map-options {
+		display: none;
+	}
+}
+
+
+#user-input {
+	overflow: hidden;
+}
+
+#user-locations , #user-location-type {
+	width: 19em;
+	float: left;
+}
+
+#locations-list {
+	padding-bottom: 0.2em;
+}
+
+.loc-input {
+	margin: 0.2em 0;
+	border-radius: 0.2em;
+	width: 17em;
+}
+
+.loc-input-invalid {
+	background-color: #eaa;
+}
+
+#get-dest {
+	margin-top: 1em;
+}
+
+/* Map */
+
+#results {
+	margin-top: 1em;
+	min-height: 20em;
+	overflow: hidden;
+}
+
+#map-outer-container {
+	float: left;
+	margin: 0 1em 1em 0;
+	min-width: 18em;
+}
+#map-inner-container {
+	margin: 0 0 1em;
+}
+
+.map-normal.map-fix-to-top {
+	position: fixed;
+	top: 0;
+}
+
+.map {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+
+#map-options {
+	display: none;
+}
+
+#map-size {
+	
+}
+#map-size li {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0.4em 0.2em 0.6em;
+	border: solid 1px transparent;
+	border-radius: 0.5em;
+}
+#map-size li input, #map-size li label{
+	cursor: pointer;
+}
+
+
+
+/* Places */
+
+#places-container {
+	display: inline-block;
+	width: 18em;
+}
+
+
+.place-icon {
+	height: 1em;
+	width: 1em;
+	margin: 0 0.4em;
+	vertical-align: top;
+}
+
+.place-name {
+	font-size: 1em;
+	margin: 0.2em 0;
+}
+
+.place-vicinity {
+	font-size: 0.8em;
+	color: #555;
+	padding: 0.3em;
+}
+
+.place-rating {
+	margin-left: 0.4em;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #f06d16;
+}
+
+.place-details {
+	display: none;
+	font-size: 0.7em;
+	font-style: italic;
+	color: #865;
+	padding: 0.2em;
+}
+
+
+/* Progress Bar */
+
+#map-loading-bar {
+	height: 1.2em;
+	width: 10em;
+	position: absolute;
+	left: 50%;
+	margin: 2em -7em;
+}
+
+/* Messages */
+
+.page-msg {
+	border: solid 0.12em #000;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	margin: 0.5em 0em;
+	max-width: 36em;
+}
+.page-msg>h3 {
+	font-weight: bold;
+	margin: 0 0 0.2em;
+}
+.page-msg>p {}
+
+
+/* Move to SCSS */
+.map-msg-information {
+	border-color: lightblue;
+	color: lightblue;
+}
+.map-msg-warning {
+	border-color: yellow;
+	color: yellow;
+}
+.map-msg-error {
+	border-color: #a00;
+	color: #a00;
+}
+
+
+
+#powered-by-google {
+	margin: 0.5em 0;
+	float: right;
+}
+
+#cookie-message {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#cookie-acknowledge {
+	margin: 0 1em;
+}
+
+/* Messages */
+
+.page-message {
+	color: #222;
+	background-color: #eee;
+	padding: 1em;
+	text-align: center;
+}
+
+
+/* Warnings */
+.warning-message{
+	color: red;
+	font-weight: bold;
+}
+
+/* Debugging */
+.debug-message {
+	color: red;
+}
+
